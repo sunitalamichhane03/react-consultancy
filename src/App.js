@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom/";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 
@@ -13,26 +13,26 @@ import Popularcourses from "./pages/Popularcources";
 import Services from "./pages/Services";
 import Signup from "./pages/Signup";
 import Uppernav from "./components/Uppernav";
+import Studyabroad from "./pages/Studyabroad";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
       <Uppernav />
         <Navbar />
-        <Home/>
         <Routes>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/contactus" component={Contactus}></Route>
-          <Route path="/Testpreparation" component={Testpreparation}></Route>
-          <Route path="/services" component={Services}></Route>
-          <Route path="/signup" component={Signup}></Route>
-          <Route path="/marketing" component={Marketing}></Route>
-          <Route path="/development" component={Development}></Route>
-          <Route path="/design" component={Design}></Route>
-          <Route path="/Popularcourses" component={Popularcourses}></Route>
-          
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/contactus" element={<Contactus/>}></Route>
+          <Route path="/Testpreparation" element={<Testpreparation/>}></Route>
+          <Route path="/services"  element={<Services/>}></Route>
+          <Route path="/signup"element={<Signup/>}></Route>
+          <Route path="/marketing" element={<Marketing/>}></Route>
+          <Route path="/development" element={<Development/>}></Route>
+          <Route path="/design" element={<Design/>}></Route>
+          <Route path="/Popularcourses" element={<Popularcourses/>}></Route>
+          <Route path='/Studyabroad'element ={<Studyabroad/>}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }

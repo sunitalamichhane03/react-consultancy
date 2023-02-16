@@ -11,32 +11,40 @@ export const navItems = [
     path: './Testpreparation',
     cName: "nav-item",
   },
-  
+
   {
     id: 3,
+    title: "Study Abroad",
+    path: './Studyabroad',
+    cName: "nav-item",
+  },
+  
+  {
+    id: 4,
     title: "Services",
     path: "./Services",
     cName: "nav-item",
   },
  
   {
-    id: 4,
+    id: 5,
     title: "Popularcourses",
     path: "./Popularcourses",
     cName: "nav-item",
   },
   {
-    id: 5,
+    id: 6,
     title: "Aboutus",
     path: "./Aboutus",
     cName: "nav-item",
   },
   {
-    id: 6,
+    id: 7,
     title: "Contact Us",
     path: "./contactus",
     cName: "nav-item",
   },
+
   
  
 ];
