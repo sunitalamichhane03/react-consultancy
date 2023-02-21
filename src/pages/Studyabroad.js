@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Back from '../components/Back/Back'
 const Studyabroad = () => {
   return (
-    <div className='studyabroad'>
-    studyabroad  
-    </div>
+    <>
+       <Back title ='Study Abroad'/>
+    </>
   )
 }
 

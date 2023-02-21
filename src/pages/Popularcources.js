@@ -1,13 +1,11 @@
 import React from "react";
-
+import Back from '../components/Back/Back'
 function Popularcources() {
   return (
-    <div>
-      <h1 className="Popularcources">Popularcources</h1>
-    </div>
+    <>
+     <Back title ='Popular Courses'/> 
+    </>
   );
 }
-
-
 
 export default Popularcources

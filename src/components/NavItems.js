@@ -53,8 +53,8 @@ export const navItems = [
 export const serviceDropdown = [
   {
     id: 1,
-    title: "Marketing",
-    path: "./marketing",
+    title: "Student Screening",
+    path: "./studentscreening",
     cName: "submenu-item",
   },
   {
@@ -77,23 +77,6 @@ export const serviceDropdown = [
   },
 ];
 
-
-export const TestpreparationDropdown = [
-  {
-    id: 1,
-    title: "Marketing",
-    path: "./marketing",
-    cName: "submenu-item",
-  },
-  {
-    id: 2,
-    title: "Consulting",
-    path: "./consulting",
-    cName: "submenu-item",
-  },
-  
-
-];
 
 
 

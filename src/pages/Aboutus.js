@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react'
+import Back from '../components/Back/Back'
 
-function Aboutus() {
+const Aboutus = () => {
   return (
-    <div>
-      <h1 className="Aboutus">About us</h1>
-    </div>
-  );
+    <>
+ 
+      <Back title ='About us'/>
+      
+    </>
+  )
 }
-
-
 
 export default Aboutus

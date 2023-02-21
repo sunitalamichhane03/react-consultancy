@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import Contactus from './Contactus'
 import img1 from '../images/home1.jpg'
 import img2 from '../images/home2.jpg'
 import img3 from '../images/home3.jpg'
@@ -16,11 +17,13 @@ import can from '../images/canada-1.jpg'
 import newz from '../images/newzea.jpg'
 import uk from '../images/uk.jpg'
 import usa from '../images/usa.jpg' 
-import con from '../images/home11.jpg'
 import ach from '../images/home12.jpg'
 import mo from '../images/mo.jpg'
 import co from '../images/co.jpg'
 import gl from '../images/gl.jpg'
+import iel from '../images/ielts.jpg'
+import pte from '../images/pte.jpg'
+
 const Home = () => {
   return (
     <>
@@ -98,6 +101,18 @@ const Home = () => {
 </div>
 </div>
 </div>
+<div className='test-prep'>
+  <div className='ielts'>
+  <a href='#'>
+  <img src = {iel}></img>
+  </a>
+  </div>
+  <div className='pte'>
+  <a href='#'>
+  <img src = {pte}></img>
+  </a>
+  </div>
+</div>
 <div className='service-section'>
 
   <h2>Student Services</h2>
@@ -166,49 +181,7 @@ const Home = () => {
                      
 
   </div>
-  <div className='contact_home'>
-  <img src = {con}></img>
-  <div className='container'>
-  <section className='slide-form'>
-    
-      <h2>GET IN TOUCH</h2>
-      <p>We value your inquiries, send us a message and we'll get back to you</p>
-      <form action= ''>
-        <input type='text' placeholder='Full Name' /><br></br>
-        <input type='text' placeholder='Email Address' /><br></br>
-        <input type='text' placeholder='Mobile Number' /><br></br>
-        <label for="country"></label>
-    <select id="country" name="city">
-    <option value="">select Nearest Office*</option>
-      <option value="Kathmandu">Kathmandu</option>
-      <option value="canada">Pokhara</option>
-      <option value="usa">Butwal</option>
-      <option value="Birtamod">Birtamod</option>
-      <option value="Bhairahawa">Bhairahawa</option>
-      <option value="usa">Parsa</option>
-      <option value="Nawalparasi">Nawalparasi</option>
-      <option value="Chitwan">Chitwan</option>
-      <option value="Sidney">Sidney</option>
-    </select>
-    <label for="city"></label><br></br>
-    <select id="city" name="city">
-    <option value="">select Prefered Study Destination*</option>
-      <option value="Kathmandu">Australia</option>
-      <option value="canada">UK</option>
-      <option value="usa">Ireland</option>
-      <option value="Birtamod">New Zealand</option>
-      <option value="Bhairahawa">Canada</option>
-      <option value="Bhairahawa">USA</option>
-      </select>
-      <label><input type="checkbox" name="checkbox-29[]" value="Yes, I would like to receive information on study abroad news and events from TheNext."/><span class="wpcf7-list-item-label">Yes, I would like to receive information on study abroad news and events from Our Consultancy.</span></label>
-      <input type="submit" value="Submit" class="submit"></input>
-
-      </form>
-     
-    
-  </section>
-  </div>
-  </div>
+ <Contactus/>
 
   <div className='achievement'>
  
@@ -220,6 +193,9 @@ const Home = () => {
   <img src = {mo}></img>
   <img src = {gl}></img>
   </div>
+</div>
+<div className='top'>
+
 </div>
 </> 
   )

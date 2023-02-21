@@ -1,9 +1,9 @@
 import React from "react";
-
+import Back from '../components/Back/Back'
 function Testpreparation() {
   return (
     <div>
-      <h1 className="Testpreparation">Test preparation</h1>
+     <Back title ='Test Preparation'/>
     </div>
   );
 }

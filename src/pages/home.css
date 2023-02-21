@@ -92,6 +92,16 @@ margin-top: 50px;
     a{
         text-decoration: none;
     }
+    .test-prep {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        width: 100%;
+    }
+    .test-prep img{
+        width: 465px;
+        height: 244.125px;
+    }
     .destinations{
 margin-top: 4rem;
 display: block;
@@ -369,4 +379,9 @@ h2 {
 display: inline-block;
 justify-content: center;
 
+  }
+  .top{
+ 
+    padding: 60px 0px;
+    padding-bottom: 190px;
   }

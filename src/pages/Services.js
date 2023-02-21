@@ -1,10 +1,11 @@
 import React from "react";
 
+import Back from '../components/Back/Back'
 function Services() {
   return (
-    <div>
-      <h1 className="services">Services</h1>
-    </div>
+    <>
+       <Back title ='Services'/>
+    </>
   );
 }
 
