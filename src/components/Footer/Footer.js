@@ -40,22 +40,7 @@ function Footer() {
         </ul>
     </div>
     </div>
-    <div className='lower-footer'>
-        <div className='adress-details'>
-            <div className='adress-left'>
-<main>
-   
-    <button>Head Office</button>
-    <Popup trigger={true}> 
-      <h1>Our Consultancy@edu.np</h1>
-     </Popup>
-</main>
-            </div>
-            <div className='adress-right'>
 
-            </div>
-        </div>
-    </div>
     
     </>
   )

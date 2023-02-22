@@ -21,7 +21,7 @@ const Contactus = () => {
         <input type='text' placeholder='Full Name' /><br></br>
         <input type='text' placeholder='Email Address' /><br></br>
         <input type='text' placeholder='Mobile Number' /><br></br>
-        <label for="country"></label>
+        <label htmlFor="country"></label>
     <select id="country" name="city">
     <option value="">select Nearest Office*</option>
       <option value="Kathmandu">Kathmandu</option>
@@ -34,7 +34,7 @@ const Contactus = () => {
       <option value="Chitwan">Chitwan</option>
       <option value="Sidney">Sidney</option>
     </select>
-    <label for="city"></label><br></br>
+    <label htmlFor="city"></label><br></br>
     <select id="city" name="city">
     <option value="">select Prefered Study Destination*</option>
       <option value="Kathmandu">Australia</option>
@@ -44,8 +44,8 @@ const Contactus = () => {
       <option value="Bhairahawa">Canada</option>
       <option value="Bhairahawa">USA</option>
       </select>
-      <label><input type="checkbox" name="checkbox-29[]" value="Yes, I would like to receive information on study abroad news and events from TheNext."/><span class="wpcf7-list-item-label">Yes, I would like to receive information on study abroad news and events from Our Consultancy.</span></label>
-      <input type="submit" value="Submit" class="submit"></input>
+      <label><input type="checkbox" name="checkbox-29[]" value="Yes, I would like to receive information on study abroad news and events from TheNext."/><span>Yes, I would like to receive information on study abroad news and events from Our Consultancy.</span></label>
+      <input type="submit" value="Submit"></input>
 
       </form>
      
