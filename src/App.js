@@ -45,7 +45,7 @@ function App() {
           <Route path='/Pte' element={<Pte/>}></Route>
           <Route path ='/University_application_assistance' element={<University_application_assistance/>}></Route>
         </Routes>
-        <Footer/>
+       
         <Lowerfooter/>
       </Router>
     </>

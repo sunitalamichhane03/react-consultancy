@@ -118,6 +118,8 @@ const Home = () => {
   <div className='pte'>
   <Link to = '/Pte'>
   <img src = {pte}></img>
+  <p>The Pearson Test of English (PTE) Academic is an entirely computer-based exam English language test for non-native English speakers who wish to study abroad</p>
+  <button>Learn More</button>
   </Link>
  
   </div>
