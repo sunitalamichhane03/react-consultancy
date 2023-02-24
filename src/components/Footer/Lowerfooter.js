@@ -1,11 +1,12 @@
 import React from 'react'
+import Accordion from '../Accordion'
 
-const Lowerfooter = () => {
+function Lowerfooter() {
   return (
-    <>
-    
-    
-    </>
+    <div>
+<Accordion/>
+      
+    </div>
   )
 }
 

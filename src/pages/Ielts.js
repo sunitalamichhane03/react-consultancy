@@ -4,7 +4,7 @@ import Back from '../components/Back/Back'
 import img from '../images/ielts.jpg'
 import test from '../images/test.jpg'
 import Footer from '../components/Footer/Footer'
-import Destination from '../components/Destination'
+import Modal from '../components/Model/Modal'
 const Ielts = () => {
   return (
     <>
@@ -304,21 +304,27 @@ Take the slip to IDP or British council with a photocopy of an identification ca
     <div className='value'> 
     <h2>What are things allowed and not allowed during Test?</h2>
   </div>
-  <div className='column'>
+  <div className='colum'>
+  <div className='col'>
 
   <h4>Calculator and stuff.</h4>
   <p>Literally, nothing is allowed during the test. Everything you need is provided by the test center itself. There is a thorough check done before you enter the examination hall. If you have anything with you such as wallet, bike keys, phone, etc, they will be kept in the examination center with a tag on them so you can pick them up once the examination is done.</p>
    </div>
-</div>
-</div>
-<div className='column'>
+
+<div className='col'>
 <h4>How long is IELTS test Score Valid?</h4>
 <p>IELTS test score is valid for 2 years.</p>
 </div>
+</div>
+</div>
+</div>
+
+
+<Modal/>
     </>
   )
 }
-<Destination/>
+
 
 export default Ielts
 

@@ -64,42 +64,14 @@ const Home = () => {
 <div className='destinations'>
 <h2>Top Study Destinations Around the World</h2>
 <div className='destination'>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {ire}></img>
-<h4>Study in <br></br>Ireland</h4>
-</a>
-</div>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {aus}></img>
-<h4>Study in <br></br>Australia</h4>
-</a>
-</div>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {uk}></img>
-<h4>Study in <br></br>UK</h4>
-</a>
-</div>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {newz}></img>
-<h4>Study in <br></br>New Zealand</h4>
-</a>
-</div>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {can}></img>
-<h4>Study in <br></br>Canada</h4>
-</a>
-</div>
-<div className='image-box'>
-  <a href= '#'>
-<img src = {usa}></img>
-<h4>Study in <br></br>USA</h4>
-</a>
-</div>
+
+<figure className='destin'>
+            <img src={ire} alt="ireland image"></img>
+            <figcaption>
+               Study in Ireland 
+            </figcaption>
+        </figure>
+
 </div>
 </div>
 <div className='prepn'>

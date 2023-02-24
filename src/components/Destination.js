@@ -1,23 +1,15 @@
 import React from 'react'
 import ire from '../images/ireland.jpg'
+import './Destination.css'
 
-export default function Destination() {
- return   <>
-
-<div className='container'>
-    <div className='wrapper'>
-        <div className='destinations'>
-        <img src = {ire}></img>
-        <div className='image-caption'>
-            Study in Ireland
-            </div>
-        </div>
+function Destination() {
+  return (
+    <>
+    <div className='destination'>
+        
     </div>
-
-</div>
-
     </>
-      
-
-
+  )
 }
+
+export default Destination

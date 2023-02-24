@@ -2,6 +2,7 @@ import React from 'react'
 import Back from '../components/Back/Back'
 import pte from '../images/pte.jpg'
 import './Pte.css'
+import Modal from '../components/Model/Modal'
 const Pte = () => {
   return (
     <>
@@ -54,7 +55,7 @@ const Pte = () => {
 </div>
 <div className='consult'>
   <div className='cons'>
-    <h2>Why PTE in the Next Education Consultancy?</h2>
+    <h2>Why PTE in Our Consultancy?</h2>
     <p>The Next Education Consultancy feels honored to announce that it has been conducting PTE classes since its establishment. Our well-qualified and experienced Instructors regularly facilitate students who wish to prepare for the PTE exam pragmatically and methodologically. They not only make students well acquainted with the test format but also provide them with some valuable tips and strategies to master individual question types so that the desired score can be easily achieved.
 </p>
 <p><b>PTE Test Format in Detail:</b></p>
@@ -76,6 +77,8 @@ const Pte = () => {
 </tr>
 </tbody>
 </table>
+
+<Modal/>
     </>
   )
 }

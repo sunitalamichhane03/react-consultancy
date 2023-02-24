@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from './components/Footer/Footer'
 import Lowerfooter from "./components/Footer/Lowerfooter";
+import Destination from './components/Destination'
+
 
 import Contactus from "./pages/Contactus";
 import Design from "./pages/Design";
@@ -45,8 +47,10 @@ function App() {
           <Route path='/Pte' element={<Pte/>}></Route>
           <Route path ='/University_application_assistance' element={<University_application_assistance/>}></Route>
         </Routes>
+       <Footer />
+     
        
-        <Lowerfooter/>
+       
       </Router>
     </>
   );

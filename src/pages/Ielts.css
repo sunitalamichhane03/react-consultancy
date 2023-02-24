@@ -211,8 +211,16 @@ h3{
     margin-top: 3rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .class{
     background-color: #f1f1f1;
+}
+.colu{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.col{
+    width: 50%;
+   
 }
