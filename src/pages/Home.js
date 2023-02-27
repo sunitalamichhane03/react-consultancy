@@ -66,12 +66,14 @@ const Home = () => {
 <div className='destination'>
 
 <figure className='destin'>
+  <Link to = '/Ireland'>
             <img src={ire} alt="ireland image"></img>
             <figcaption>
                Study in Ireland 
             </figcaption>
+            </Link>
         </figure>
-
+      
 </div>
 </div>
 <div className='prepn'>

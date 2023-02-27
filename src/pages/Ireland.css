@@ -1,0 +1,91 @@
+.ire{
+    width: 100%;
+    background-color: white;
+}
+.describe {
+    width: 100%;
+    height: max-content;
+}
+.ireland, .facts, .irel, .web, .connect, .wpa, .element,.name{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 5rem;
+   
+}
+.describe h2{
+    float:  left;
+    margin-top: 5rem;
+}
+
+.rowling, .study{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+
+}
+h3 {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;}
+    ul li, ol li {
+        margin-bottom: 5px;
+                display: block;
+                    color: #333;
+                    font-size: 16px;
+                    font-family: 'Poppins', sans-serif;
+                    
+                    line-height: 1.7;
+                    color: #333;
+                    font-weight: 400;}
+               
+       .ire h2, .connect h2{
+        float: left;
+       }  
+      
+      .webb{
+        display: block;
+       
+      
+      }  
+      .webb p,h2{
+  display: block;
+  padding: 1rem;
+  
+      }
+     .irel h2{
+        float: left;
+        pad: 1rem;
+     }
+      .table1{
+        float: left;}
+        .table>tbody>tr>th{
+            vertical-align: middle;
+    padding: 10px;
+        }
+        .wppera ul li{
+            display:inline-block;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .elementary {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+        .wbp_wrap{
+            
+            display:inline-block;
+            justify-content: space-around;
+            align-items: center;
+        }
+       
+    

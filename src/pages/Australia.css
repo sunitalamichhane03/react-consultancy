@@ -1,0 +1,42 @@
+.contents h2{
+    float: left;
+    margin-bottom: 1rem;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2rem;
+
+}
+.wrappe, .half{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 2rem;
+}
+.pass p{
+ float: left;
+
+
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    background-color: white;
+}
+.class img{
+    float: right;
+   width: 50%;
+   
+}
+.quarter{
+    padding-bottom: 2rem;
+}
+.lists ul{
+    width: 100%;
+}
+.half img{
+    float: right;
+}

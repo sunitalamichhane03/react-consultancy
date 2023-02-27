@@ -22,7 +22,9 @@ import Studyabroad from "./pages/Studyabroad";
 import Aboutus from "./pages/Aboutus";
 import Ielts from "./pages/Ielts";
 import Pte from './pages/Pte'
+import Ireland from "./pages/Ireland";
 import University_application_assistance from './pages/University_applicaton_assistance'
+import Australia from "./pages/Australia";
 
 function App() {
   return (
@@ -45,7 +47,9 @@ function App() {
           <Route path='/Studyabroad'element ={<Studyabroad/>}></Route>
           <Route path ='/Ielts' element ={<Ielts/>}></Route>
           <Route path='/Pte' element={<Pte/>}></Route>
+          <Route path='/Ireland' element={<Ireland/>}></Route>
           <Route path ='/University_application_assistance' element={<University_application_assistance/>}></Route>
+          <Route path ='/australia' element={<Australia/>}></Route>
         </Routes>
        <Footer />
      
