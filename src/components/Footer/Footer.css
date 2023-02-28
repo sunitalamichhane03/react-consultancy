@@ -1,10 +1,12 @@
 .upper-footer {
     display: flex;
     justify-content: space-around;
-    color: #222;
-padding-top: 2rem;
     margin-left: 5rem;
     width: 100%;
+}
+.foot{
+    
+    background: #333;
 }
 .visa{
     width: 33.33%;
@@ -42,4 +44,7 @@ padding-top: 2rem;
 }
 .visa a{
     display: inline-block;
+}
+.upper-footer a{
+    color: white;
 }

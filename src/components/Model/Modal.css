@@ -78,11 +78,12 @@ form{
     height: auto;
     outline: 0;
     padding: 15px;
-    width: 130%;
-    background-color: #e8eeef;
-    color: #8a97a0;
+    width: 40%;
+    background-color: #09cbedad;
+    color: #333;
     box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
     margin-bottom: 15px;
+ 
     }
     .slide-form p{
     text-align: center;

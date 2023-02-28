@@ -1,15 +1,14 @@
 import React from 'react'
+
 import { Link } from 'react-router-dom'
 
 import './Testpreparation.css'
-import iel from '../images/ielts.jpg'
-import pte from '../images/pte.jpg'
-
-
+import iel from '../../images/ielts.jpg'
+import pte from '../../images/pte.jpg'
 const Testpreparation = () => {
   return (
     <>
- <div className='prepn'>
+    <div className='prepn'>
 <h2>Test Preparation</h2>
 </div>
 <div className='test-prep'>

@@ -42,7 +42,7 @@ const Australia = () => {
      <div className='quarter'>
         <div className='half'>
             <h2>Facts about Australia as a student destination</h2>
-
+<div className='more'>
 	<ul className='lists'>
 <li>Australia is the world’s 13th largest economy and has the world’s fifth-highest per capita income.</li>
 <li>One of the most popular destinations in the world for international students.</li>
@@ -62,10 +62,39 @@ const Australia = () => {
 <li>The Human Development Index of the UN Human Development Report 2015 ranked Australia second in the world.</li>
 <li>The Economist Intelligence Unit’s 2016 World’s Most Livable Cities Survey ranked Melbourne No. 1 in the World’s most livable city.</li>
 </ul>
-
+<div className='checklist'>
 <img src={aus2}></img>	
+</div>
+</div>
  </div>
      </div>
+     <div className='further'>
+      <div className='far'>
+        <div className='moreabout'>
+        <div className='desired'>
+        <h2>What makes such a desired destination for Nepalese Students for further study in Australia?</h2>
+      </div>
+      <p>Australia offers a diverse range of study options for international students, with more than 1,200 institutions and over 22,000 courses to choose from. Regardless of what you are studying or how long for, Australia’s law promotes quality education &amp; protection of international students. As an international student on a study visa, you must study with an institution and in a course that is registered with the CRICOS. CRICOS registration guarantees that the course &amp; the institution at which you study meet the high standards expected by international students. So no matter what course you want to study for, how long or where you can be assured that in Australia you will have high quality &amp; rewarding study experience.</p>
+      <p><strong>Australia is such a desired destination for students from Nepal because of the following reasons</strong></p>
+      <ul>
+<li>Safe and friendly society</li>
+<li>Diverse course availability</li>
+<li>Similar climate to that of Nepal</li>
+<li>Better lifestyle</li>
+<li>40 hours work per fortnight allowed</li>
+<li>Flexible visa policy</li>
+<li>World-class universities</li>
+<li>Cheaper living cost</li>
+<li>Post-study work visa</li>
+<li>Globally accepted international degree</li>
+</ul>
+
+
+      </div>
+     </div>
+     </div>
+
+
     </>
   )
 }

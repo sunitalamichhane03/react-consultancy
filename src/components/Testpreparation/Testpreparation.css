@@ -1,0 +1,59 @@
+.prepn{
+    justify-items: center;
+    margin-left: 8rem;
+    margin-right: 8rem; 
+    margin-bottom: 3rem;
+}
+.prepn h2{
+    display: block;
+    color: #333;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+}
+ 
+
+    .test-prep{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        width: 90%;
+        margin-right: 5rem;
+        margin-left: 5rem;
+       
+    }
+    .test-prep p{
+        width:50%;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .test-prep button{
+        margin-left: 12rem;
+        margin-top: 1rem;
+        background-color: #4CAF50;
+         border: none;
+        color: white;
+       padding: 15px 32px;
+        text-align: center;
+     
+       display: inline-block;
+       font-size: 16px;
+    
+     cursor: pointer;
+    }
+    .test-prep button:hover{
+        color: white;
+        background-color: #45a049;
+    }
+    
+    .test-prep img{
+        width: 465px;
+        height: 244.125px;
+       
+        margin-left: 5rem;
+    }

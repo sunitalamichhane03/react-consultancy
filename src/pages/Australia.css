@@ -8,8 +8,8 @@
     padding-bottom: 2rem;
 
 }
-.wrappe, .half{
-    margin-top: 2rem;
+.wrappe, .half, .far{
+    margin-top: 1rem;
     margin-left: 7rem;
     margin-right: 7rem;
     padding-bottom: 2rem;
@@ -34,7 +34,10 @@
 .quarter{
     padding-bottom: 2rem;
 }
-.lists ul{
+.more{
+    display: flex;
+}
+.lists {
     width: 100%;
 }
 .half img{

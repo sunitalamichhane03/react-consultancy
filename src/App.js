@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Body from './components/Body/Body'
 import Footer from './components/Footer/Footer'
 import Lowerfooter from "./components/Footer/Lowerfooter";
 import Destination from './components/Destination'
@@ -24,7 +25,8 @@ import Ielts from "./pages/Ielts";
 import Pte from './pages/Pte'
 import Ireland from "./pages/Ireland";
 import University_application_assistance from './pages/University_applicaton_assistance'
-import Australia from "./pages/Australia";
+import Australia from "./pages/Australia"
+import Uk from './pages/Uk'
 
 function App() {
   return (
@@ -33,8 +35,11 @@ function App() {
       <Uppernav />
         <Navbar />
        
+
+       
         <Routes>
           <Route path="/"exact element={<Home/>}></Route>
+          <Route path ='/home' element ={<Home/>}></Route>
           <Route path="/contactus" element={<Contactus/>}></Route>
           <Route path ='/aboutus' exact element={<Aboutus/>}></Route>
           <Route path="/Testpreparation" element={<Testpreparation/>}></Route>
@@ -50,11 +55,10 @@ function App() {
           <Route path='/Ireland' element={<Ireland/>}></Route>
           <Route path ='/University_application_assistance' element={<University_application_assistance/>}></Route>
           <Route path ='/australia' element={<Australia/>}></Route>
+          <Route path ='/Uk'element ={<Uk/>}></Route>
         </Routes>
        <Footer />
-     
-       
-       
+  
       </Router>
     </>
   );

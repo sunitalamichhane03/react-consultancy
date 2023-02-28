@@ -5,6 +5,7 @@ import './Footer.css'
 function Footer() {
   return (
     <>
+    <div className='foot'>
     <div className='upper-footer'>
     <div className='visa'>
        <h4>Visa process</h4> 
@@ -40,7 +41,7 @@ function Footer() {
         </ul>
     </div>
     </div>
-
+    </div>
     
     </>
   )

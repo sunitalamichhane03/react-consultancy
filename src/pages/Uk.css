@@ -1,0 +1,29 @@
+.wrapper{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 2rem; 
+}
+.details h2{
+    float: left;
+  
+}
+.details{
+    margin-bottom: 1rem;
+}
+.uks{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.uks img{
+    width: 45%;
+float: right;
+margin-left: 1rem;
+
+}
+.uks p{
+    display: block;
+}
