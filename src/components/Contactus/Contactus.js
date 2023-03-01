@@ -1,6 +1,7 @@
 import React from 'react'
 import con from '../../images/home11.jpg'
-import './Contactus.css'
+import Accordion from '../Accordion'
+
 const Contactus = () => {
   return (
     <>
@@ -49,6 +50,7 @@ const Contactus = () => {
   </div>
   </div>
   </div>
+
     </>
   )
 }

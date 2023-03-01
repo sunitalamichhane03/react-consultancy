@@ -1,12 +1,14 @@
 import React from 'react'
 import Back from '../components/Back/Back'
 import './Studentscreening.css'
+
 import Modal from '../components/Model/Modal'
-const Studentscreening = () => {
+const University Applicaton Assistance = () => {
   return (
     <>
-      <Back title ='Student screening'/>
-      <div className='screening'>
+ <Back title ='University Applicaton Asistance'/>
+
+ <div className='screening'>
       <div className="con">	
       <div className='contents'>						 
 				<p>The “student assistance team” of Next Consultancy is an experienced agency in background checks of Students eligibility for enrollment. Universities, colleges and education providers turn to us because of our safe, secure and customized screening procedure which is unique in the Nepalese Prospective student market.</p>
@@ -25,4 +27,4 @@ A student must be referred to the student assistance team for consideration of i
   )
 }
 
-export default Studentscreening
+export default University_applicaton_assistance

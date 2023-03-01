@@ -32,7 +32,7 @@ const Studyabroad = () => {
 <div className='options'>
 <div className="destinations">
   <img src={uk}></img>
-  <Link to = '/Ireland'>
+  <Link to = '/Uk'>
   <h1>Study in Ireland</h1>
   </Link>
 </div>

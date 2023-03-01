@@ -1,62 +1,31 @@
 export const Data = [
-    {
+  {
     question: 'HEAD OFFICE',
-    answer1:'info@thenext.edu.np',
-      answer2     :'4010522, 4010523',
-      answer3 :'Dillibazar, Kathmandu, Nepal',
-},
-{
+    answer: '✆ :4010512 or 4010323 ✉info@ourconsultancy.edu.np 𖡡 Dillibazar,KTM'},
+      
+  {
     question: 'BIRTAMODE OFFICE',
-    answer1:'023-530359/535537',
-    answer2:    'shanischare Road (opposite of Everest Bank), Birtamode- 5',
-    
-},
-
-{
-    question: 'BHAIRAHAWA OFFICE',
-    answer1:'071-574452, 574457, 9857052457, 9857044736',
-      answer2:     'Barmeli tole-8, Rupendehi',
-     
-},
-
-{
+    answer: '✆023-530353/535535, 𖡡shanischare Road, Birtamode- 5 .'
+  },
+  {
     question: 'POKHARA OFFICE',
-    answer1: '061-589544',
-      answer2:     'Shivatara Complex- 2nd Floor, Chipledhunga, Pokhara',
-      
-},
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+  },
 
-{
-    question: 'BUTWAL OFFICE',
-    answer1:'056-582492',
-      answer2:     'Krish Building, 1st floor, Milanchowk, Butwal 11, Rupendehi, Nepal',
-       
-},
-{
+  {
     question: 'CHITWAN OFFICE',
-    answer1:'056-582497',
-      answer2:'Naya Road, Parsa-Chitwan'
-       
-},
-{
-    question: 'POKHARA OFFICE',
-    answer1: '061-589544',
-      answer2:     'Shivatara Complex- 2nd Floor, Chipledhunga, Pokhara',
+    answer: '✆ :4010512 or 4010323 ✉info@ourconsultancy.edu.np 𖡡 Dillibazar,KTM'},
       
-},
-
-{
-    question: 'BUTWAL OFFICE',
-    answer1:'056-582492',
-      answer2:     'Krish Building, 1st floor, Milanchowk, Butwal 11, Rupendehi, Nepal',
-       
-},
-{
-    question: 'CHITWAN OFFICE',
-    answer1:'056-582497',
-      answer2:     'Naya Road, Parsa-Chitwan',
-       
-}
-
-
-]
+  {
+    question: 'PARSA OFFICE',
+    answer: '✆023-530353/535535, 𖡡shanischare Road, Birtamode- 5 .'
+  },
+  {
+    question: 'NAWALPARASI OFFICE',
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+  },
+  {
+    question: 'SIDNEY OFFICE',
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+  }
+];

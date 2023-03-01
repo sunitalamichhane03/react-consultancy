@@ -11,6 +11,7 @@ import gl from '../images/gl.jpg'
 import Destination from '../components/Destination'
 import Testpreparation from '../components/Testpreparation/Testpreparation'
 import Services from '../components/Services/Services'
+import Testimonials from '../components/Testimonials/Testimonials'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
 <Body/>
 
 <Testpreparation/>
+<Services/>
  <Contactus/>
 
   <div className='achievement'>
@@ -34,7 +36,7 @@ const Home = () => {
   <img src = {gl}></img>
   </div>
 </div>
-
+<Testimonials/>
 </> 
   )
 }

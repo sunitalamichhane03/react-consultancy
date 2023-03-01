@@ -1,0 +1,28 @@
+
+.home-service{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.service-section{
+    justify-content: center;
+}
+.service-section h3{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 60px;
+}
+.service-items{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.service-tags{
+  display: flex;
+  flex-basis: 32%;
+   
+    
+}

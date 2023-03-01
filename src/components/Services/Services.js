@@ -1,4 +1,5 @@
 import React from 'react'
+import './Services.css'
 import { Link } from 'react-router-dom'
 import img5 from '../../images/home5.jpg'
 import img6 from '../../images/home6.jpg'
@@ -10,6 +11,8 @@ import img10 from '../../images/home10.jpg'
 const Services = () => {
   return (
     <>
+    <div className="facilities">
+    <div className='home-service'>
    <div className='service-section'>
 
 <h2>Student Services</h2>
@@ -28,13 +31,13 @@ const Services = () => {
                                                    
                                                  </li>
                                          <li className='service-tags'>
-                                         <a href="#">
+                                         <Link to='/University_application_assistance'>
                                            <img src ={img6}></img>
                                            <div className="service_desc">
                                                             <h3>University Application Assistance</h3>
                                                              <p>An application assistance team is available to you through Our Consultancy to help you complete the university admission process.</p>
                                                          </div>
-                                                         </a>
+                                                         </Link>
                                          </li>
 
                                   <li className='service-tags'>
@@ -75,10 +78,10 @@ const Services = () => {
                                   </a>
                                   </li>
                      </div>
-                   
+                     </div>
 
 </div>
-    
+</div>
     </>
   )
 }
