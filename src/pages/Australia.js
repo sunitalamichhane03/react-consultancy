@@ -68,32 +68,7 @@ const Australia = () => {
 </div>
  </div>
      </div>
-     <div className='further'>
-      <div className='far'>
-        <div className='moreabout'>
-        <div className='desired'>
-        <h2>What makes such a desired destination for Nepalese Students for further study in Australia?</h2>
-      </div>
-      <p>Australia offers a diverse range of study options for international students, with more than 1,200 institutions and over 22,000 courses to choose from. Regardless of what you are studying or how long for, Australia’s law promotes quality education &amp; protection of international students. As an international student on a study visa, you must study with an institution and in a course that is registered with the CRICOS. CRICOS registration guarantees that the course &amp; the institution at which you study meet the high standards expected by international students. So no matter what course you want to study for, how long or where you can be assured that in Australia you will have high quality &amp; rewarding study experience.</p>
-      <p><strong>Australia is such a desired destination for students from Nepal because of the following reasons</strong></p>
-      <ul>
-<li>Safe and friendly society</li>
-<li>Diverse course availability</li>
-<li>Similar climate to that of Nepal</li>
-<li>Better lifestyle</li>
-<li>40 hours work per fortnight allowed</li>
-<li>Flexible visa policy</li>
-<li>World-class universities</li>
-<li>Cheaper living cost</li>
-<li>Post-study work visa</li>
-<li>Globally accepted international degree</li>
-</ul>
-
-
-      </div>
-     </div>
-     </div>
-
+    
 
     </>
   )

@@ -1,5 +1,5 @@
 .contents h2{
-    float: left;
+ 
     margin-bottom: 1rem;
 }
 .container{
@@ -14,11 +14,7 @@
     margin-right: 7rem;
     padding-bottom: 2rem;
 }
-.pass p{
- float: left;
 
-
-}
 .class{
     display: flex;
     justify-content: space-around;
@@ -39,7 +35,4 @@
 }
 .lists {
     width: 100%;
-}
-.half img{
-    float: right;
 }

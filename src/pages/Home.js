@@ -8,7 +8,7 @@ import mo from '../images/mo.jpg'
 import co from '../images/co.jpg'
 import gl from '../images/gl.jpg'
 
-import Destination from '../components/Destination'
+import Destination from '../components/Destinations/Destination'
 import Testpreparation from '../components/Testpreparation/Testpreparation'
 import Services from '../components/Services/Services'
 import Testimonials from '../components/Testimonials/Testimonials'
@@ -20,10 +20,14 @@ const Home = () => {
       <img src={home}></img>
       </div>
 <Body/>
-
 <Testpreparation/>
+<Destination/>
+
 <Services/>
+
  <Contactus/>
+
+
 
   <div className='achievement'>
  

@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-around;
     margin-left: 5rem;
-    width: 100%;
-    background: #333;
+  
 }
 .foot{
-    
+   
     background: #333;
 }
 .visa{
     width: 33.33%;
+    
 }
  .upper-footer li a{
     display: block;

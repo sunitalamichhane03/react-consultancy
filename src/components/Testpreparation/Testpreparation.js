@@ -8,6 +8,7 @@ import pte from '../../images/pte.jpg'
 const Testpreparation = () => {
   return (
     <>
+    <div className='test-preparation'>
     <div className='prepn'>
 <h2>Test Preparation</h2>
 </div>
@@ -30,7 +31,7 @@ const Testpreparation = () => {
  
   </div>
 </div>
-    
+</div>
     </>
   )
 }

@@ -11,7 +11,7 @@ import img10 from '../../images/home10.jpg'
 const Services = () => {
   return (
     <>
-    <div className="facilities">
+    <div className="Services">
     <div className='home-service'>
    <div className='service-section'>
 
@@ -31,7 +31,7 @@ const Services = () => {
                                                    
                                                  </li>
                                          <li className='service-tags'>
-                                         <Link to='/University_application_assistance'>
+                                         <Link to='/UniversityApplicationAssistance'>
                                            <img src ={img6}></img>
                                            <div className="service_desc">
                                                             <h3>University Application Assistance</h3>
@@ -41,22 +41,23 @@ const Services = () => {
                                          </li>
 
                                   <li className='service-tags'>
-                                         <a href="#">
+                                  <Link to ='/DocumentationGuidance'>
                                            <img src ={img8}></img>
                                            <div className="service_desc">
                                      <h3>Documentation Guidance</h3>
                                       <p>Our Consultancy’s Document Department is designed to guidance documents for students prepare their own documents and comply with court procedural requirements.</p>
                                   </div>  
-                                  </a>
+                                  </Link>
                                   </li>  
                                   <li className='service-tags'>
-                                         <a href="#">
+                                  <Link to ='/InterviewAssistance'> 
                                            <img src ={img7}></img>
                                            <div className="service_desc">
                                      <h3>Interview Assistance</h3>
                                       <p>While interviews are not part of every university’s admission process, many institutions will ask students to meet online before accepting their application.</p>
                                   </div>
-                                  </a></li>
+                                  </Link>
+                                  </li>
                                   <li className='service-tags'>
                                          <a href="#">
                                            <img src ={img10}></img>

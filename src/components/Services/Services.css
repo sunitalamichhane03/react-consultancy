@@ -1,4 +1,7 @@
-
+.service-items{
+    width: 100%;
+    background-color: white;
+}
 .home-service{
     margin-left: 7rem;
     margin-right: 7rem;

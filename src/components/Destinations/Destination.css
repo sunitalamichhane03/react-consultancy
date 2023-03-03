@@ -1,0 +1,61 @@
+
+
+  .wrapperss{
+    width:100%;
+    background-color: white;
+
+  }
+  .contain{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 4rem;
+
+  }
+/* Parent Container */
+.content_img{
+    position: relative;
+    height: 200px;
+    width:33%;
+    padding:10px;
+  
+}
+.rowimage {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 4rem;
+  }
+.content_img img{
+    width: 320px;
+    height: 300px;
+    Padding: 10px,10px,10px,10px;
+  
+    
+}
+/* Child Text Container */
+.content_img div{
+    position: absolute;
+    bottom: 70%;
+    right: 0;
+    top: 40%;
+    left: 30%;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor:pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.9; 
+    transition: all 0.3s ease;
+}

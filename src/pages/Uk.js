@@ -2,6 +2,7 @@ import React from 'react'
 import Back from '../components/Back/Back'
 import './Uk.css'
 import uk1 from '../images/uk1.jpg'
+import Destination from '../components/Destination'
 
 const Uk = () => {
   return (

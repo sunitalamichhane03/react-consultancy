@@ -24,9 +24,14 @@ import Aboutus from "./pages/Aboutus";
 import Ielts from "./pages/Ielts";
 import Pte from './pages/Pte'
 import Ireland from "./pages/Ireland";
+import Canada from "./pages/Canada";
 
 import Australia from "./pages/Australia"
 import Uk from './pages/Uk'
+import Usa from './pages/Usa'
+import UniversityApplicationAssistance from "./pages/UniversityApplicationAssistance";
+import DocumentationGuidance from './pages/DocumentationGuidance';
+import InterviewAssistance from "./pages/InterviewAssistance";
 
 function App() {
   return (
@@ -52,10 +57,18 @@ function App() {
           <Route path='/Studyabroad'element ={<Studyabroad/>}></Route>
           <Route path ='/Ielts' element ={<Ielts/>}></Route>
           <Route path='/Pte' element={<Pte/>}></Route>
+
+
           <Route path='/Ireland' element={<Ireland/>}></Route>
-        
           <Route path ='/australia' element={<Australia/>}></Route>
           <Route path ='/Uk'element ={<Uk/>}></Route>
+          <Route path ='/Usa'element ={<Usa/>}></Route>
+          <Route path ='./Canada' element ={<Canada/>}></Route>
+
+
+          <Route path='/UniversityApplicationAssistance' element={<UniversityApplicationAssistance/>}></Route>
+          <Route path ='/DocumentationGuidance' element={<DocumentationGuidance/>}></Route>
+          <Route path ='/InterviewAssistance'element ={<InterviewAssistance/>}></Route>
         </Routes>
        <Footer />
        <Lowerfooter/>
