@@ -8,7 +8,7 @@
     padding-bottom: 2rem;
 
 }
-.wrappe, .half, .far{
+.wrappe, .half, .far, .australia{
     margin-top: 1rem;
     margin-left: 7rem;
     margin-right: 7rem;
@@ -36,3 +36,48 @@
 .lists {
     width: 100%;
 }
+.moreabout_aus{
+    display: flex;
+}
+.moreabout_aus img{
+    width: 40%;
+    margin-left: 1rem;
+}
+.more_aus , .aus_detail{
+    display: flex;
+    margin-top: 4rem;
+margin-bottom: 4rem;
+}
+.more_aus p{
+    margin-left: 4rem;
+    
+}
+.more_aus img{
+    width: 50%;
+   
+}
+.period ol{
+    display: block;
+    width: 45%;
+}
+.educate, .visa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 0 0 20px;}
+
+   .frequently{
+padding: 100px 45px;
+background: #bf292a;
+text-align: center;
+   }
+   .frequently h3{
+    color: white;
+    
+   }

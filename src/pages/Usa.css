@@ -4,7 +4,9 @@
     margin-right: 7rem;
     margin-bottom: 2rem;
  }
- 
+ .usa-home h2{
+    text-align: left;
+  }
 
 .usa-body{
    
@@ -31,4 +33,18 @@
         margin-bottom: 1rem;
     }
    
+  .moretoknow h2{
+    text-align: left;
+  }
+  .more_about h2{
+    text-align: left;
+  }
+  .studyinusa h2{
+    text-align: left;
+  }
+  strong {
+    font-weight: 750;}
+    .megha h2{
+        text-align: left;
+    }
     

@@ -7,7 +7,7 @@ function Footer() {
     <>
     <div className='foot'>
     <div className='upper-footer'>
-    <div className='visa'>
+    <div className='visas'>
        <h4>Visa process</h4> 
        <ul className='visa-content'>
         <li><a href='#'>Student Visa in Australia</a></li>
@@ -18,7 +18,7 @@ function Footer() {
       
        </ul>
     </div>
-    <div className='visa'>
+    <div className='visas'>
         <h4>Support</h4>
         <ul>
             <li><a href='#'>Study Abroad FAQSBlogs</a></li>
@@ -28,7 +28,7 @@ function Footer() {
             <li><a href='#'>Interview Preparation</a></li>
         </ul>
     </div>
-    <div className='visa'>
+    <div className='visas'>
         <h4>Resources</h4>
         <ul>
             <li><a href='#'>Relationship Certificate with Sponsor</a></li>
