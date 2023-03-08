@@ -84,21 +84,28 @@ Whatever your interests, there’s a huge range of clubs and societies, as well 
 
 <div className='factsmore'>
   <h4>Additional facts regarding the UK</h4>
-  <ul>
+  <ol>
 <li><span data-preserver-spaces="true">Tea is the most popular drink among Brits by far. English people drink 165 million cups of tea every day on average.</span></li>
 <li><span data-preserver-spaces="true">The first postage stamp was created in the UK. Designed in May 1840, it featured the figure of Queen Victoria.</span></li>
 <li><span data-preserver-spaces="true">The monument of Stonehenge in the UK is one of the oldest monuments in the world.</span></li>
 <li><span data-preserver-spaces="true">There are public holidays on the day of a royal wedding.</span></li>
 <li><span data-preserver-spaces="true">The UK has the 17th largest railway network in the world.</span></li>
-</ul>
+</ol>
 </div>
-      </div>
-    </div>
+      
     <div className='moreabout'>
       <h2>Different types of Student Visas to study in the UK</h2>
+      </div>
+      <div className='usinuk'>
+    <p><strong><span data-preserver-spaces="true">A Standard Visitor visa</span></strong><span data-preserver-spaces="true">&nbsp;lets you do a short course of study that lasts no longer than 6 months.</span></p>
+      <p><strong><span data-preserver-spaces="true">A Short-term study visa</span></strong><span data-preserver-spaces="true">&nbsp;lets you come to the UK to study an English language course that is over 6 months and up to 11 months.</span></p>
+      <p><strong><span data-preserver-spaces="true">A Student visa</span></strong><span data-preserver-spaces="true">&nbsp;is usually for a longer course. You must be sponsored by a licensed college or university and have a confirmed place. You may be able to do some work on this visa.</span></p>
+      <p><strong><span data-preserver-spaces="true">A Student visa</span></strong><span data-preserver-spaces="true">&nbsp;is usually for a longer course. You must be sponsored by a licensed college or university and have a confirmed place. You may be able to do some work on this visa.</span></p>
+      <p><strong><span data-preserver-spaces="true">A Child Student visa</span></strong><span data-preserver-spaces="true">&nbsp;is for 4 to 17-year-olds who want to study at an independent school. If you’re 16 or over, you can do</span></p>
     </div>
 
-
+    </div>
+    </div>
     </>
   )
 }

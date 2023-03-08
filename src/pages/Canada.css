@@ -1,0 +1,84 @@
+.container{
+    width: 100%;
+}
+
+.wrapper {
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 4rem;
+}
+.canada-more h2{
+    text-align: left;
+}
+.wpb_wrpper {
+    display: flex;}
+    .wpb_wrpper img {
+        margin-left: 20rem;
+        width:40%;
+        
+    }
+    .wp_wrapper{
+        margin-top: 3rem;
+    }
+   .wp_wrapper ol, li{
+     margin-bottom: 5px;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: 'Poppins', sans-serif;
+     line-height: 1.7;
+     color: #333;
+   
+   }
+   .eligible h2{
+    text-align: left;
+   }
+   .wpb_wrpe ol{
+    width: 50%;
+   }
+
+   .canada-moreto h3{
+    text-align: left;
+   }
+   .wpb_wrr{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   }
+   .why{
+    margin-top: 2rem;
+   }
+   .why h2{
+    text-align: left;
+   }
+   .lod{
+    margin-bottom: 3rem;
+   }
+   .wpbwrapper{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+   }
+   .wema{
+    margin-top: 3rem;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+   }
+   .cera{
+    width: 49%;
+   }
+   .datalists{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+.scholar {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.scholarship {
+    margin-bottom: 2rem;
+}
+.directn{
+    margin-bottom: 2rem;
+}

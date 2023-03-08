@@ -29,10 +29,10 @@ margin-left: 1rem;
     display: block;
 }
 .ukbody p{
-    float: left;
+    text-align: left;
 }
 .wrappp h2{
-    float: left;
+    text-align: left;
    
 }
 .wbpw p{
@@ -42,5 +42,16 @@ margin-left: 1rem;
 strong {
     font-weight: 700;}
 .moreabout{
-    float: left;
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+.wpbw li span{
+    text-align: left;
+
+}
+.usinuk p span {
+ 
+    text-align: left;
+   
 }

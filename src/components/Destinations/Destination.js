@@ -1,6 +1,10 @@
 import React from 'react'
 import img from '../../images/australia1.png'
 import ire from '../../images/ireland.jpg'
+import can from '../../images/canada-1.jpg'
+import us from '../../images/usa.jpg'
+import uk from '../../images/uk.jpg'
+import ne from '../../images/newzea.jpg'
 import './Destination.css'
 import { Link } from 'react-router-dom'
 const Destination = () => {
@@ -21,13 +25,13 @@ const Destination = () => {
   </div>
   <div className="content_img">
     <Link to ='/Australia'>
-  <img src={ire}></img>
+  <img src={img}></img>
   <div>Study in <br></br>Australia</div>
   </Link>
   </div>
   <div className="content_img">
     <Link to ='/Uk'>
-  <img src={ire}></img>
+  <img src={uk}></img>
   <div>Study in <br></br>UK</div>
   </Link>
   </div>
@@ -37,19 +41,19 @@ const Destination = () => {
   <div className='rowimage'>
     <div className="content_img">
         <Link to ='/Newzealand'>
-    <img src={ire}></img>
+    <img src={ne}></img>
     <div>Study in New<br></br>Zealand</div>
     </Link>
   </div>
   <div className="content_img">
     <Link to ='/Canada'>
-  <img src={ire}></img>
+  <img src={can}></img>
   <div>Study in <br></br>Canada</div>
   </Link>
   </div>
   <div className="content_img">
     <Link to ='/Usa'>
-  <img src={ire}></img>
+  <img src={us}></img>
   <div>Study in <br></br>USA</div>
   </Link>
   </div>

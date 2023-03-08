@@ -25,6 +25,7 @@ import Ielts from "./pages/Ielts";
 import Pte from './pages/Pte'
 import Ireland from "./pages/Ireland";
 import Canada from "./pages/Canada";
+import Newzealand from "./pages/Newzealand";
 
 import Australia from "./pages/Australia"
 import Uk from './pages/Uk'
@@ -63,7 +64,8 @@ function App() {
           <Route path ='/australia' element={<Australia/>}></Route>
           <Route path ='/Uk'element ={<Uk/>}></Route>
           <Route path ='/Usa'element ={<Usa/>}></Route>
-          <Route path ='./Canada' element ={<Canada/>}></Route>
+          <Route path ='/Canada' element ={<Canada/>}></Route>
+          <Route path ='/Newzealand' element={<Newzealand/>}></Route>
 
 
           <Route path='/UniversityApplicationAssistance' element={<UniversityApplicationAssistance/>}></Route>
