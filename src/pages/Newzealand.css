@@ -3,3 +3,57 @@
     margin-left: 7rem;
     margin-right: 7rem;
 }
+.new-home h2{
+    text-align: left;
+}
+.wpbana{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.wpbana img{
+    width: 30%;
+}
+.newz-home h2{
+    text-align: left;
+}
+.classin{
+    display: flex;
+   align-items: center;
+justify-content: space-around;
+}
+.xmla{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+
+}
+.moreonnew{
+    width: 45%;
+}
+.xmla p{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.permit h3{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.wpgggr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.wpgggr p{
+    width: 55%;
+    
+}
+.wpgggr img{
+    margin-left: 4rem;
+}
+.applyf{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

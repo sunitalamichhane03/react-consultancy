@@ -53,7 +53,7 @@ ol li{
     font-size: 18px;
     line-height: 1.7;
     color: #222;
-    font-weight: 300;
+    font-weight: 400;
     
 }
 .container2{
@@ -107,20 +107,20 @@ a.rounded_btn {
   }
   
   /* Style the counter cards */
-  .card {
+  .carda {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: white;
    
   }
-  .card p{
+  .carda p{
     font-size: 15px;
 }
-  .card h4 {
+  .carda h4 {
     font-size: 24px;
     color: #9e0105;}
-    .card h5 {
+    .carda h5 {
         font-size: 16px;
         margin-bottom: 10px;}
         .wrapper4 h2{

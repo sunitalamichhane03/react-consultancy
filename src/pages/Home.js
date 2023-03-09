@@ -9,16 +9,37 @@ import co from '../images/co.jpg'
 import gl from '../images/gl.jpg'
 
 import Destination from '../components/Destinations/Destination'
-import Testpreparation from '../components/Testpreparation/Testpreparation'
-import Services from '../components/Services/Services'
+import Testpreparation from '../components/Testprepn/Testprepn'
+import Services from '../components/Services/Service'
 import Testimonials from '../components/Testimonials/Testimonials'
+import img from '../images/usa.jpg'
+import ImageSlider from '../components/ImageSlider'
 
 const Home = () => {
+
+  const slides = [
+    
+    { url: "https://static.studyin-uk.com/assets/study-guide/studying-in-uk-vs-home-country.jpg", title: "study" },
+    { url: "https://i0.wp.com/studyabroadconsultants.org/wp-content/uploads/2020/10/Study-in-Australia-1.jpg?w=800&ssl=1", title:"study" },
+    { url: "https://thenext.edu.np/wp-content/uploads/2017/08/newzea.jpg", title: "city" },
+    { url: "https://thenext.edu.np/wp-content/uploads/2019/09/canada-1.jpg", title: "study" },
+    { url: "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/05/11231006/Study-Abroad-1024x640.png", title: "italy" },
+    { url: "https://www.smarttalk.in/wp-content/uploads/2019/10/How-spoken-English-helps-in-study-abroad-1024x384.jpg", title: "study" },
+
+  ];
+  const containerStyles = {
+    width: "100%",
+    height: "550px",
+    margin: "0 auto",
+  };
   return (
-    <>
-    <div className='home-section'>
-      <img src={home}></img>
+    <> 
+ 
+      <div style={containerStyles}>
+        <ImageSlider slides={slides} />
       </div>
+  
+     
 <Body/>
 <Testpreparation/>
 <Destination/>
@@ -43,6 +64,6 @@ const Home = () => {
 <Testimonials/>
 </> 
   )
-}
+};
 
-export default Home
+export default Home;

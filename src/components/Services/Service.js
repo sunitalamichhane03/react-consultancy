@@ -8,7 +8,7 @@ import img8 from '../../images/home8.jpg'
 import img9 from '../../images/home9.jpg'
 import img10 from '../../images/home10.jpg'
 
-const Services = () => {
+const Service = () => {
   return (
     <>
     <div className="Services">
@@ -87,4 +87,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Service

@@ -65,7 +65,7 @@ const Ielts = () => {
         <h2>IELTS Score Scale</h2>
         <div className="row">
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 9</h5>
     <h4>Expert user</h4>
     <p>The test taker has fully operational command of the language. Their use of English is appropriate, accurate and fluent, and shows complete understanding.</p>
@@ -73,7 +73,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 8</h5>
     <h4>Very Good user</h4>
     <p>The test taker has fully operational command of the language with only occasional unsystematic inaccuracies and inappropriate usage. They may misunderstand some things in unfamiliar situations. They handle complex and detailed argumentation well.</p>
@@ -81,7 +81,7 @@ const Ielts = () => {
   </div>
   
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 7</h5>
     <h4>Good user</h4>
     <p>The test taker has operational command of the language, though with occasional inaccuracies, inappropriate usage and misunderstandings in some situations. They generally handle complex language well and understand detailed reasoning.</p>
@@ -89,7 +89,7 @@ const Ielts = () => {
   </div>
   
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 6</h5>
      <h4>Competent user</h4>
       <p>The test taker has an effective command of the language despite some inaccuracies, inappropriate usage and misunderstandings. They can use and understand fairly complex language, particularly in familiar situation</p>
@@ -97,7 +97,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 5</h5>
      <h4>Modest user</h4>
       <p>The test taker has a partial command of the language and copes with overall meaning in most situations, although they are likely to make many mistakes. They should be able to handle basic communication in their own field.</p>
@@ -105,7 +105,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 4</h5>
      <h4>Limited user</h4>
      <p>The test taker’s basic competence is limited to familiar situations. They frequently show problems in understanding and expression. They are not able to use complex language.They can use simple languages.</p>
@@ -113,7 +113,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 3</h5>
      <h4>Competent user</h4>
       <p>The user has good command of the language but with some errors, inappropriate usage.</p>
@@ -121,7 +121,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 2</h5>
      <h4>Intermittent user</h4>
      <p>The test taker has great difficulty understanding spoken and written English.</p>
@@ -129,7 +129,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 1</h5>
      <h4>Non-user</h4>
      <p>The test taker has no ability to use the language except a few isolated words.</p>
@@ -137,7 +137,7 @@ const Ielts = () => {
   </div>
 
   <div className="column">
-    <div className="card">
+    <div className="carda">
     <h5>Band 0</h5>
      <h4>Did not attempt the test</h4>
      <p>The test taker did not answer the questions.</p>
