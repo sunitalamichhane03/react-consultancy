@@ -1,19 +1,19 @@
 import React from 'react'
-import {Link }from 'react-router-dom'
 import './home.css'
-import Body from '../components/Body/Body'
-import Contactus from '../components/Contactus/Contactus'
-import home from '../images/home.jpg'
+
 import mo from '../images/mo.jpg'
 import co from '../images/co.jpg'
 import gl from '../images/gl.jpg'
+import img from '../images/usa.jpg'
 
+import Body from '../components/Body/Body'
+import Contactus from '../components/Contactus/Contactus'
 import Destination from '../components/Destinations/Destination'
 import Testpreparation from '../components/Testprepn/Testprepn'
 import Services from '../components/Services/Service'
 import Testimonials from '../components/Testimonials/Testimonials'
-import img from '../images/usa.jpg'
 import ImageSlider from '../components/ImageSlider'
+import Popular from '../components/Popular/Popular'
 
 const Home = () => {
 
@@ -28,7 +28,7 @@ const Home = () => {
 
   ];
   const containerStyles = {
-    width: "100%",
+    width: "95%",
     height: "550px",
     margin: "0 auto",
   };
@@ -45,7 +45,7 @@ const Home = () => {
 <Destination/>
 
 <Services/>
-
+<Popular/>
  <Contactus/>
 
 

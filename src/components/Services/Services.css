@@ -19,13 +19,19 @@
 }
 .service-items{
     display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
+   flex-wrap: 33%;
    
+}.service-tags{
+display: flex;
+flex-basis: 32%;
+vertical-align: middle;  
 }
-.service-tags{
-  display: flex;
-  flex-basis: 32%;
-   
-    
+.service-tags img{
+    align-items: center;
+}
+
+.service_desc {
+    vertical-align: middle;  
 }

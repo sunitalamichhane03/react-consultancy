@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.home-section img{
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.achievement{
+    background-image: url(../images/home12.jpg);
+    text-align: center;
+    padding: 150px 0px;
+    background-size: auto 100%;
+    background-position: center center;
+  
+    }
+h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: 3px;}
+  .achievement h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin: 0;
+  }
+  .achievement h3{
+    max-width: 390px;
+    margin: 40px auto;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+  }
+  .image-ach img{
+display: inline-block;
+justify-content: center;
+
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+ 

@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const Destination = () => {
   return (
     <>
-    <div className='wrapperss'>
+    <div className='wrappersss'>
     <div className='contain'>
     <div className='places'>
 

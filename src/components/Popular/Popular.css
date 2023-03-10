@@ -1,50 +1,99 @@
-.wrapper {
-    position: relative;
-    
-    margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-.container{
-    width: 100%;
-}
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 30%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+
+.rapperr {
+    padding: 50px 50px;
+    max-width: 1200px;
     text-align: center;
-  }
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 20px;
+}
+.rapperr
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parenrt {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
   
-  .flex:hover .image {
-    opacity: 0.3;
-  }
-  
-  .flex:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-  .flex{
-    display: flex;
-  flex-direction: column;
- width: 50%;
-  }
+    display: inline-block;
+	cursor: pointer;
+}
+
+.chilld {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(https://i0.wp.com/oyaschool.com/wp-content/uploads/2018/12/College-vs-University-in-Australia.png?w=600&ssl=1);}
+.bg-two {background-image: url(https://rmc.org.au/blog/wp-content/uploads/2017/02/StPaulsCollege.jpg);}
+.bg-three {background-image: url(https://leapscholar.com/blog/wp-content/uploads/2021/01/shutterstock_523031776-min.png);}
+.bg-four {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hollywood_Sign.jpg/1280px-Hollywood_Sign.jpg);}
+.bg-five {background-image: url(https://admission.buddy4study.com/study-abroad/wp-content/uploads/2019/08/college-application-deadlin-1.jpg);}
+.bg-six {background-image: url(https://image.free-apply.com/gallery/l/uni/gallery/lg/1003600018/f351453bc6db51cb48e0b2cd0b780ae5753e97f1.jpg?s=640);}
+
+
+ .parenrt a,.right a {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.parenrt:hover .chilld, .parenrt:focus .chilld {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parenrt:hover .chilld:before, .parenrt:focus .chilld:before {
+    display: block;
+}
+
+.parenrt:hover a, .parenrt:focus a {
+    display: block;
+}
+
+.chilld:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parenrt {width: 100%; margin: 20px 0px}
+		.rapperr {padding: 20px 20px;}
+}
+
+
+
+
+.hello {display: none}

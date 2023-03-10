@@ -1,0 +1,50 @@
+ 
+ .demo-usa{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+ }
+ .usa-home h2{
+    text-align: left;
+  }
+
+.usa-body{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+.usa-body img{
+    width: 50%;
+   
+}
+.moretoknow{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.usa-home {
+    margin-bottom: 2rem;
+    display: block;
+}
+
+  
+    .usa-section{
+        margin-bottom: 1rem;
+    }
+   
+  .moretoknow h2{
+    text-align: left;
+  }
+  .more_about h2{
+    text-align: left;
+  }
+  .studyinusa h2{
+    text-align: left;
+  }
+  strong {
+    font-weight: 750;}
+    .megha h2{
+        text-align: left;
+    }
+    

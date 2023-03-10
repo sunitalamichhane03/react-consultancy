@@ -13,7 +13,7 @@ const Aboutus = () => {
       <section className='intro'>
         <div className='introduction'>
           <img src={int}></img>
-          <div className='text'>
+          <div className='texta'>
             <h2>WHO WE ARE</h2>
             <p>Our Consultancy has a long standing reputation of being one of the most comprehensive study abroad consultants in  Nepal. Our head office is at Dillibazar, Kathmandu, Nepal. We have a support office in Sydney and Perth and branches at Parsa, Birtamode, Pokhara, Nawalparasi, Chitwan, Butwal in Nepal.</p>
           </div>

@@ -42,7 +42,7 @@ border-radius: 8px;
 
 
 .slide-form {
-  width: 50%;
+  width: 45%;
   float: right;
 margin: 0 auto;
 padding: 30px 30px 0;
@@ -71,7 +71,7 @@ padding: 15px;
 width: 10%;
 background-color: #e8eeef;
 color: #3797dbd7;
-box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset;
+
 margin-bottom: 15px;
 justify-content: center;
 }
@@ -85,7 +85,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 input[type=text], select {
-width: 100%;
+width: 90%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;

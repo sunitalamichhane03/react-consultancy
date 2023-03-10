@@ -33,7 +33,8 @@ import Usa from './pages/Usa'
 import UniversityApplicationAssistance from "./pages/UniversityApplicationAssistance";
 import DocumentationGuidance from './pages/DocumentationGuidance';
 import InterviewAssistance from "./pages/InterviewAssistance";
-
+import It from './pages/It'
+import Gre from "./pages/Gre";
 function App() {
   return (
     <>
@@ -58,7 +59,7 @@ function App() {
           <Route path='/Studyabroad'element ={<Studyabroad/>}></Route>
           <Route path ='/Ielts' element ={<Ielts/>}></Route>
           <Route path='/Pte' element={<Pte/>}></Route>
-
+          <Route path ='/Gre' element ={<Gre/>}></Route>
 
           <Route path='/Ireland' element={<Ireland/>}></Route>
           <Route path ='/australia' element={<Australia/>}></Route>
@@ -71,10 +72,11 @@ function App() {
           <Route path='/UniversityApplicationAssistance' element={<UniversityApplicationAssistance/>}></Route>
           <Route path ='/DocumentationGuidance' element={<DocumentationGuidance/>}></Route>
           <Route path ='/InterviewAssistance'element ={<InterviewAssistance/>}></Route>
+          <Route path ='/It' element={<It/>}></Route>
         </Routes>
-       <Footer />
+        <Footer />
        <Lowerfooter/>
-  
+     
       </Router>
     </>
   );

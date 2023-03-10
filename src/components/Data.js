@@ -9,7 +9,7 @@ export const Data = [
   },
   {
     question: 'POKHARA OFFICE',
-    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  𖡡Lakeside-3, pokhara'
   },
 
   {
@@ -22,10 +22,10 @@ export const Data = [
   },
   {
     question: 'NAWALPARASI OFFICE',
-    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  𖡡Lakeside-3, pokhara'
   },
   {
-    question: 'SIDNEY OFFICE',
-    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  Lakeside-3, pokhara'
+    question: 'SYDNEY OFFICE',
+    answer: ' ✆023-530353/535535, ✉info@ourconsultancy.edu.np  𖡡Lakeside-3, pokhara'
   }
 ];

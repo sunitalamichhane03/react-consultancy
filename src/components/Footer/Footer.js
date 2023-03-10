@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
   return (
     <>
-    <div className='foot'>
+    <div className='footr'>
     <div className='upper-footer'>
     <div className='visas'>
        <h4>Visa process</h4> 

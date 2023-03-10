@@ -1,0 +1,57 @@
+  
+    .wrapper, .knowmore {
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 2rem; 
+}
+.details h2{
+    float: left;
+  
+}
+.details{
+    margin-bottom: 1rem;
+}
+.uks{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+   width: 100%;
+}
+
+.uks img{
+    width: 45%;
+float: right;
+margin-left: 1rem;
+
+}
+.uks p{
+    display: block;
+}
+.ukbody p{
+    text-align: left;
+}
+.wrappp h2{
+    text-align: left;
+   
+}
+.wbpw p{
+   justify-content: left; 
+   display: block;
+}
+strong {
+    font-weight: 700;}
+.moreabout{
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+.wpbw li span{
+    text-align: left;
+
+}
+.usinuk p span {
+ 
+    text-align: left;
+   
+}

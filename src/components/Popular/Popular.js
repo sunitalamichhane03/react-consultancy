@@ -1,29 +1,53 @@
 import React from 'react'
 import './Popular.css'
-import img from '../../images/aus.png'
+import { Link } from 'react-router-dom'
 
 const Popular = () => {
   return (
     <>
-<div className="container">
-  <div className='wrapper'>
-  <div className='flex'>
-  <div className='image'>
-  <img src={img} ></img>
-  </div>
-  <div className="middle">
-    <div className="text">Study IT in Australia</div>
-  </div>
-  </div>
-  <div className='flex'>
-  <div className='image'>
-  <img src={img} ></img>
-  </div>
-  <div className="middle">
-    <div className="text">Study IT in Australia</div>
-  </div>
-  </div>
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+
+<div className="rapperr">
+  <h2>Popular Courses</h2>
+	<div className="parenrt" onclick="">
+  
+		<div className="chilld bg-one">
+    <Link to='/It'>
+      <a>Study IT in Australia</a>
+      </Link>
+		</div>
+   
+	</div>
+
+	<div className="parenrt right" onclick="">
+		<div className="chilld bg-two">
+    <a>Study Agriculture <br></br>in Australia</a>
+		</div>
+	</div>
+
+	<div className="parenrt" onclick="">
+		<div className="chilld bg-three">
+		<a>Study IT in Australia</a>
+		</div>
+	</div>
+
+	<div className="parenrt right" onclick="">
+		<div className="chilld bg-four">
+   <a>Study Architecture<br></br> in Australia</a>
+		</div>
+	</div>
+
+	<div className="parenrt" onclick="">
+		<div className="chilld bg-five">
+    <a>Study Arts in Australia</a>
+		</div>
+	</div>
+
+	<div className="parenrt right" onclick="">
+		<div className="chilld bg-six">
+		<a>Study Law in Australia</a>
+		</div>
+	</div>
 </div>
     </>
   )

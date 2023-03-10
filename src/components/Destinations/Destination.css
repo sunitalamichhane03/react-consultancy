@@ -1,14 +1,15 @@
-
-
-  .wrapperss{
+ .wrappersss{
     width:100%;
     background-color: white;
 
   }
+  .destu h2{
+margin-bottom: -2rem;
+  }
   .contain{
     margin-left: 7rem;
     margin-right: 7rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 
   }
 /* Parent Container */
@@ -25,7 +26,7 @@
     padding: 4rem;
   }
 .content_img img{
-    width: 320px;
+    width: 370px;
     height: 300px;
     Padding: 10px,10px,10px,10px;
   

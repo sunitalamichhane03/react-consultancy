@@ -49,6 +49,8 @@ const Service = () => {
                                   </div>  
                                   </Link>
                                   </li>  
+                                  </div>
+                                  <div className='service-items'>
                                   <li className='service-tags'>
                                   <Link to ='/InterviewAssistance'> 
                                            <img src ={img7}></img>

@@ -1,0 +1,57 @@
+.intro{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+    
+}
+.introduction {
+    display: flex;
+   max-width: 100%;
+   align-items: center;
+   margin-bottom: 3rem;
+      
+}
+
+.introduction .text{
+    float: right;
+    margin-left: 10rem;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 400;}
+    h2 {
+        font-size: 36px;
+        line-height: 1.3;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin: 0 0 40px;
+    }
+    .introduction1 {
+       
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+       
+    }.introduction1 img{
+        margin-left: 3rem;
+    }
+    .objective img{
+        width: 50%;
+
+    }
+    .objective {
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .objective .text2{
+        float: right;
+    margin-left: 10rem;
+    }

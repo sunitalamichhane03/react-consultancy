@@ -18,7 +18,7 @@ const AccordionSection = styled.div`
 
 const Container = styled.div`
   position: absolute;
-  top: 5%;
+  top: -3%;
   width: 90%;
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
   bottom: 1rem;

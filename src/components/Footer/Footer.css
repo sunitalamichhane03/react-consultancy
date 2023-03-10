@@ -1,14 +1,18 @@
+.footr{
+    width: 100%;
+     background: #333;
+ }
+
 .upper-footer {
     display: flex;
     justify-content: space-around;
     margin-left: 5rem;
+   
   
 }
-.foot{
-   
-    background: #333;
-}
+
 .visas{
+    margin-top: 2rem;
     width: 33.33%;
     
 }

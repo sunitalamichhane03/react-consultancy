@@ -6,6 +6,9 @@ import image from '../../images/lowerfooterimg.jpg'
 function Lowerfooter() {
   return (
     <>
+    <div className='location-details'>
+      <h2>Location Details</h2>
+    </div>
 <Accordion/>
 <div className='containers'>
 

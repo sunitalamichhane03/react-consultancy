@@ -1,0 +1,51 @@
+.upper-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5rem;
+  
+}
+.foot{
+   
+    background: #333;
+}
+.visas{
+    width: 33.33%;
+    
+}
+ .upper-footer li a{
+    display: block;
+ }   
+
+.upper-footer h4{
+    color: #bf292a;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.upper-footer ul li{
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.upper-footer a{
+   text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.upper-footer a:hover{
+    color: #bf292a;
+}
+.visa h4{
+    padding: 1rem;
+}
+.visa a{
+    display: inline-block;
+}
+.upper-footer a{
+    color: white;
+}
