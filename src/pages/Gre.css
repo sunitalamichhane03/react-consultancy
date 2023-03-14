@@ -1,0 +1,28 @@
+.gre-section{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+}
+.gredetails{
+    margin-bottom: 2rem;
+}
+.vocab{
+    margin-bottom: 2rem;
+}
+.vocab h2, .vocabulary h2{
+    text-align: left;
+}
+.detailsongree{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.table{
+    margin-bottom: 1rem;
+}
+.gretests h2{
+text-align: left;
+}
+.solving h2{
+    text-align: left;
+}
