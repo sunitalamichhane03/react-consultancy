@@ -171,6 +171,56 @@ Minutes to complete Verbal Reasoning</th>
 <p>The cost to take the GRE is $205 for all testing locations except China. The fee includes sending score reports to up to four graduate institutions of your choice.</p>
 
 </div>
+<div className='satsection'>
+  <h2>Learn about SAT</h2>
+  <p>The SAT (/ˌɛsˌeɪˈtiː/ ess-ay-TEE) is a standardized test widely used for college admissions in the United States. Since its debut in 1926, its name and scoring have changed several times. For much of its history, it was called the Scholastic Aptitude Test and had two components, Verbal and Mathematical, each of which was scored on a range from 200 to 800. Later it was called the Scholastic Assessment Test, then the SAT I: Reasoning Test, then the SAT Reasoning Test, then simply the SAT.</p>
+  </div>
+<div className='satdetails'>
+  <h2>WHAT IS ON THE SAT?</h2>
+  <p>The SAT takes three hours and consists of three tests: (1) the Reading Test, (2) the Writing and Language Test, and (3) the Math Test. Compared to the ACT®, the SAT provides 43% more time per question:</p>
+
+</div>
+
+<table className="table">
+<tbody>
+<tr>
+<th>Component</th>
+<th>	Time Allotted (minutes)</th>
+<th>Number of Questions/Tasks</th>
+</tr>
+<tr>
+<td>Reading
+</td>
+<td>	
+65</td>
+<td>52</td>
+</tr>
+<tr>
+<td>Writing and Language
+</td>
+<td>	
+635</td>
+<td>44</td>
+</tr>
+<tr>
+<td>Math
+</td>
+<td>	
+80</td>
+<td>58</td>
+</tr>
+<tr>
+<td>Total
+</td>
+<td>	
+180</td>
+<td>154</td>
+</tr>
+
+</tbody>
+</table>
+<p>Most of the questions are multiple choice, though some of the math questions ask you to write in the answer rather than select it.</p>
+<p>On all questions, there’s no penalty for guessing: if you're not sure of the answer, it's better to guess than leave the response blank.</p>
   </div>
 </div>
 

@@ -1,0 +1,19 @@
+.archisec{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.moreinarchi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.moreinarchi img{
+    width: 50%;
+    margin-right: 2rem;
+}
+.wpb_wraclassr h2, .wpahhdhapper h2{
+text-align: left;
+}

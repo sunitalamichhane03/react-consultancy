@@ -1,0 +1,22 @@
+.agri{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.agriculture-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.agriculture-section img{
+    width: 50%;
+}
+.agriculture-section p{
+    margin-left: 3rem;
+}
+.kapper h2{
+    text-align: left;
+}

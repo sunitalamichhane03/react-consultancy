@@ -1,0 +1,21 @@
+.lawstudents {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.morelaw {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.morelaw img{
+    width: 50%;
+    margin-right: 2rem;
+}
+.wlaewan h2{
+    text-align: left;
+}

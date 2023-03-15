@@ -35,6 +35,12 @@ import DocumentationGuidance from './pages/DocumentationGuidance';
 import InterviewAssistance from "./pages/InterviewAssistance";
 import It from './pages/It'
 import Gre from "./pages/Gre";
+import Agriculture from "./pages/Agriculture";
+import Mba from "./pages/Mba";
+import Architecture from "./pages/Architecture";
+import Law from "./pages/Law";
+import Arts from './pages/Arts'
+
 function App() {
   return (
     <>
@@ -73,6 +79,11 @@ function App() {
           <Route path ='/DocumentationGuidance' element={<DocumentationGuidance/>}></Route>
           <Route path ='/InterviewAssistance'element ={<InterviewAssistance/>}></Route>
           <Route path ='/It' element={<It/>}></Route>
+          <Route path="/Agriculture" element ={<Agriculture/>}></Route>
+          <Route path="/Mba" element={<Mba/>}></Route>
+          <Route path="/Architecture" element={<Architecture/>}></Route>
+          <Route path ='/Law'element={<Law/>}></Route>
+          <Route path ='Arts' element={<Arts/>}></Route>
         </Routes>
         <Footer />
        <Lowerfooter/>

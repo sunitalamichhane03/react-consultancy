@@ -21,31 +21,42 @@ const Popular = () => {
 
 	<div className="parenrt right" onclick="">
 		<div className="chilld bg-two">
+			
+			<Link to ='/Agriculture'>
     <a>Study Agriculture <br></br>in Australia</a>
+	</Link>
 		</div>
 	</div>
 
 	<div className="parenrt" onclick="">
 		<div className="chilld bg-three">
-		<a>Study IT in Australia</a>
+		<Link to ='/Mba'>
+		<a>Study MBA in Australia</a>
+		</Link>
 		</div>
 	</div>
 
 	<div className="parenrt right" onclick="">
 		<div className="chilld bg-four">
+		<Link to ='/Architecture'>
    <a>Study Architecture<br></br> in Australia</a>
+   </Link>
 		</div>
 	</div>
 
 	<div className="parenrt" onclick="">
 		<div className="chilld bg-five">
+			<Link to ='/Arts'>
     <a>Study Arts in Australia</a>
+	</Link>
 		</div>
 	</div>
 
 	<div className="parenrt right" onclick="">
 		<div className="chilld bg-six">
+			<Link to ='/Law'>
 		<a>Study Law in Australia</a>
+		</Link>
 		</div>
 	</div>
 </div>
