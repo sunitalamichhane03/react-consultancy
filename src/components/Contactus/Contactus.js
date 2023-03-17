@@ -12,7 +12,7 @@ const Contactus = () => {
   <section className='slide-form'>
     
       <h2>GET IN TOUCH</h2>
-      <p>We value your inquiries, send us a message and we'll get back to you</p>
+      <p>We value your inquiries, send us a message and <br></br>we'll get back to you</p>
       <form action= ''>
         <input type='text' placeholder='Full Name' /><br></br>
         <input type='text' placeholder='Email Address' /><br></br>
@@ -40,7 +40,9 @@ const Contactus = () => {
       <option value="Bhairahawa">Canada</option>
       <option value="Bhairahawa">USA</option>
       </select>
-      <label><input type="checkbox" name="checkbox-29[]" value="Yes, I would like to receive information on study abroad news and events from TheNext."/><span>Yes, I would like to receive information on study abroad news and events from Our Consultancy.</span></label>
+      <label><input type="checkbox" name="checkbox-29[]" value="Yes, I would like to receive information on study 
+      abroad news and events from TheNext."/><span>Yes, I would like to receive information on study abroad news and events <br></br>
+        from Our Consultancy.</span></label>
       <input type="submit" value="Submit"></input>
 
       </form>

@@ -10,7 +10,7 @@ function Lowerfooter() {
       <h2>Location Details</h2>
     </div>
 <Accordion/>
-<div className='containers'>
+<div className='containersfooter'>
 
 <div className='wrappers'>
 

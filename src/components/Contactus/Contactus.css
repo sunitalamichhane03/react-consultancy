@@ -27,16 +27,13 @@ margin-bottom: 40px;
 }
 .contact_home img{
   margin-top: 3.5rem;
-width: 45%;
+width: 40%;
 float: left;
 position: relative;
 min-height: 1px;
-padding-right: 55px;
+padding-right: 20px;
 padding-left: 15px;
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-height: 600px;
+height: 550px;
 border-radius: 8px;
 }
 
@@ -85,7 +82,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 input[type=text], select {
-width: 90%;
+width: 45%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;

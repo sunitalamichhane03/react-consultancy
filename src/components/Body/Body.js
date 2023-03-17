@@ -20,7 +20,7 @@ const Body = () => {
 <h1>The Leading Education Consultancy<br></br> In Nepal </h1></a>
 <p>Our Consultancy has a long-standing reputation for being one of the best educational consultancy in Nepal for studying abroad. Our head office is located at Dillibazar, Kathmandu including branches at Parsa, Birtamode, Pokhara, Nawalparasi, Chitwan, Butwal in Nepal. And we have a support office in Sydney.</p>
 </div>
-<div className='image-row'>
+<div className='image-rowq'>
   <figure>
   <img src = {img1}></img>
   <h3>High Visa <br></br>Success Rate</h3>
